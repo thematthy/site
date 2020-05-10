@@ -15,11 +15,3 @@ function updateCountdown() {
    countdownEl.innerHTML = `${minutes}:${seconds}`;
    time !== 0 ? time-- : time;
 }
-
-if (seconds < 10) {
-  greeting = 'Good morning';
-} else if (time < 20) {
-  greeting = "Good day";
-} else {
-  greeting = "Good evening";
-}
